@@ -1,3 +1,8 @@
 this is a test file from 
-this is day 2 date (20/11/2025) >> i will update it every day/..
-
+this is day 2 date (20/11/2025) >> i will update it every day/
+i practis related accidently save,staged,commit file to restore
+(commond like 
+git restore .            >>if file saved
+git restore --staged .    >>if file add into staged (git add .)
+git reset --soft HEAD^    >> if file committed only remove the commont
+git reset --hard HEAD^    >> if we don't need commit version (delete version permanently)
